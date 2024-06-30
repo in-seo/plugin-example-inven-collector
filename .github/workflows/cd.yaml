@@ -30,4 +30,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: in-seo/plugin-example-inven-collector:${{ github.sha }}
+          tags: sis000512/plugin-example-inven-collector:${{ github.sha }},sis000512/plugin-example-inven-collector:latest
